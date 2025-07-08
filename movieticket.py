@@ -8,11 +8,11 @@ def get_valid_int(prompt):
 
 name = input("Enter your name: ")
 age = get_valid_int("Enter your age: ")
-          
+
 if age < 13:
     cost = 8
     ticket_info = "Child (8.00)"
-elif age <=64:
+elif age <= 64:
     cost = 12
     ticket_info = "Adult (12.00)"
 else:
@@ -26,6 +26,6 @@ print("========MOVIE TICKET RECEIPT=========")
 print(f"Customer Name: {name}")
 print(f"Ticket Type: {ticket_info}")
 print(f"Number of Tickets: {quant}")
-print(f"Total Cost: ${total:.2f}")  
+print(f"Total Cost: ${total:.2f}")
 print(" THANK YOU FOR YOUR PURCHASE! ")
 print("======================================")

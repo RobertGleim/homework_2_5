@@ -2,7 +2,7 @@ def get_valid_int(prompt):
     while True:
         try:
             value = int(input(prompt))
-            if value >= 0:
+            if value > 0:
                 return value
             else:
                 print("Please enter a non-negative number.")
